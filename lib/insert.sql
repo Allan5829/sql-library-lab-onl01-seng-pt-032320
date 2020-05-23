@@ -9,7 +9,7 @@ INSERT INTO authors (name) VALUES
 
 INSERT INTO books (title, year, series_id) VALUES
     ("volume 90", 2018, 1), ("volume 91", 2018, 1), ("volume 92", 2019, 1),
-    ("volume 20", 2019, 2), ("volume 21", 2019, 2), ("volume 22", 2020, 2),
+    ("volume 20", 2019, 2), ("volume 21", 2019, 2), ("volume 22", 2020, 2);
 
 INSERT INTO characters (name, motto, species, author_id) VALUES
     ("Monkey D luffy", "I'm gonna be king of the pirates", "human", 1), ("Chopper", "Cure any disease", "raindeer who ate human human fruit", 1),
