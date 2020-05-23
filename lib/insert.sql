@@ -18,4 +18,5 @@ INSERT INTO characters (name, motto, species, author_id) VALUES
     ("All Might", "real number 1 hero", "human", 2), ("Shoto", "number 3? hero", "human", 2);
 
 INSERT INTO character_books (book_id, character_id) VALUES
+    (1,1), (1,2), (1,3), (1,4), (2,5), (2,6), (2,7), (2,8),
     (1,1), (1,2), (1,3), (1,4), (2,5), (2,6), (2,7), (2,8);
