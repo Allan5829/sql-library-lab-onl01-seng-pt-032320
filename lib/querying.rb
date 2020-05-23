@@ -13,9 +13,9 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "SELECT Count(characters.species), characters.species
+  "SELECT characters.species, Count(characters.species)
    FROM characters
-   ORDER BY characters.motto ASC LIMIT 1;"
+   ORDER BY characters.motto DESC LIMIT 1;"
 end
 
 def select_name_and_series_subgenres_of_authors
